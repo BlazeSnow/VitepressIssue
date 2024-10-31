@@ -12,7 +12,7 @@ export default defineConfig({
           {
             text: 'test',
             activeMatch: '/test/',
-            link: '/test',
+            link: '/test/',
           }
         ]
       }
