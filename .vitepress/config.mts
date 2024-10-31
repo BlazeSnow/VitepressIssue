@@ -1,28 +1,33 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "test",
   description: "test",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          {
+            text: 'test',
+            activeMatch: '/test/',
+            link: '/test',
+          }
         ]
       }
     ],
-
+    sidebar: [
+      {
+        text: 'test',
+        items: [
+          { text: 'test1', link: '/test/' },
+          { text: 'test2', link: '/test/test' }
+        ]
+      }
+    ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/BlazeSnow/VitepressIssue' }
     ]
   }
 })

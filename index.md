@@ -1,25 +1,14 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "test"
-  text: "test"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  name: VitepressIssue
+  tagline: https://github.com/vuejs/vitepress/issues/4163
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: A
+    details: 侧边栏选中第一个条目时，activeMatch正常显示于展开菜单以及导航栏
+  - title: B
+    details: 选中第二个及以后的条目时，activeMatch正常显示于展开菜单，但是不显示于导航栏
 ---
 
