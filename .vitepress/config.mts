@@ -8,7 +8,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       {
         text: 'Examples',
-        activeMatch: '/test/',
+        activeMatch: '/whatever/',
         items: [
           {
             text: 'test',
