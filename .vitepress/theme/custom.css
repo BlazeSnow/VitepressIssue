@@ -4,3 +4,8 @@
     --vp-c-brand-3: red;
     --vp-c-brand-soft: red;
 }
+
+html,
+body {
+    font-size: 18px;
+}
