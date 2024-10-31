@@ -8,24 +8,41 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       {
         text: 'Examples',
+        activeMatch: '/whatever/',
         items: [
           {
             text: 'test',
             activeMatch: '/test/',
             link: '/test/',
+          },
+          {
+            text: 'another',
+            activeMatch: '/another/',
+            link: '/another/',
           }
         ]
-      }
+      },
     ],
-    sidebar: [
-      {
-        text: 'test',
-        items: [
-          { text: 'test1', link: '/test/' },
-          { text: 'test2', link: '/test/test' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/test/': [
+        {
+          text: 'test',
+          items: [
+            { text: 'test1', link: '/test/' },
+            { text: 'test2', link: '/test/test' }
+          ]
+        }
+      ],
+      '/another/': [
+        {
+          text: 'another',
+          items: [
+            { text: 'test3', link: '/another/' },
+            { text: 'test4', link: '/another/test' }
+          ]
+        }
+      ]
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/BlazeSnow/VitepressIssue' }
     ]
