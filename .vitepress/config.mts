@@ -16,12 +16,12 @@ export default defineConfig({
             link: '/test/',
           },
           {
-            text: 'anothertest',
-            activeMatch: '/anothertest/',
-            link: '/anothertest/',
+            text: 'another',
+            activeMatch: '/another/',
+            link: '/another/',
           }
         ]
-      }
+      },
     ],
     sidebar: {
       '/test/': [
@@ -33,12 +33,12 @@ export default defineConfig({
           ]
         }
       ],
-      '/anothertest/': [
+      '/another/': [
         {
-          text: 'anothertest',
+          text: 'another',
           items: [
-            { text: 'test3', link: '/anothertest/' },
-            { text: 'test4', link: '/anothertest/test' }
+            { text: 'test3', link: '/another/' },
+            { text: 'test4', link: '/another/test' }
           ]
         }
       ]
