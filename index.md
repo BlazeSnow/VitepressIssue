@@ -1,18 +1,28 @@
 ---
 layout: home
-
-hero:
-  name: BlazeSnow - VitepressIssue
 ---
 
-# <https://github.com/vuejs/vitepress/issues/4163>
+## New issue
 
-点击`navbar`的`Examples`里面的`test`，然后点击`sidebar`的`test1`，此时`Examples`为红色高亮。但是，点击`sidebar`的`test2`时，`Examples`不为红色高亮。
+无论在Examples的activematch输入任何内容，test被高亮时，Examples总是会高亮。
 
-Click on `test` in `Examples` of `navbar` and then click on `test1` of `sidebar` with `Examples` highlighted in red. However, when you click on `test2` of the `sidebar`, `Examples` are not highlighted in red.
+Whenever you enter anything in the Examples' activematch, the Examples will always be highlighted when test is highlighted.
 
-## 如下图
-
-![picture](/1.png)
-
-![picture](/2.png)
+```typescript{3}
+      {
+        text: 'Examples',
+        activeMatch: '/whatever/',
+        items: [
+          {
+            text: 'test',
+            activeMatch: '/test/',
+            link: '/test/',
+          },
+          {
+            text: 'another',
+            activeMatch: '/another/',
+            link: '/another/',
+          }
+        ]
+      },
+```
