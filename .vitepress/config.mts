@@ -4,6 +4,7 @@ export default defineConfig({
   title: "BlazeSnow - VitepressIssue",
   description: "BlazeSnow - VitepressIssue",
   themeConfig: {
+    aside: false,
     nav: [
       { text: 'Home', link: '/' },
       {
@@ -20,6 +21,17 @@ export default defineConfig({
             activeMatch: '/another/',
             link: '/another/',
           }
+        ]
+      },
+      {
+        text: 'Done',
+        activeMatch: '/Done/',
+        items: [
+          {
+            text: '4163',
+            activeMatch: '/Done/4163',
+            link: '/Done/4163',
+          },
         ]
       },
     ],

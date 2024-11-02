@@ -9,7 +9,7 @@ layout: home
 Whenever you enter anything in the Examples' activematch, the Examples will always be highlighted when test is highlighted.
 
 ```typescript{3}
-{
+      {
         text: 'Examples',
         activeMatch: '/whatever/',
         items: [
@@ -24,5 +24,5 @@ Whenever you enter anything in the Examples' activematch, the Examples will alwa
             link: '/another/',
           }
         ]
-      }
+      },
 ```
