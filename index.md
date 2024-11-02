@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## New issue
+## <https://github.com/vuejs/vitepress/issues/4332>
 
 无论在Examples的activematch输入任何内容，test被高亮时，Examples总是会高亮。
 
