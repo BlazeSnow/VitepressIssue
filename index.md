@@ -13,11 +13,13 @@ layout: home
 
 All secondary headings on this page "##" are unresolved issues. The English of this page is translated by machine, which may cause ambiguity. Please refer to the Chinese version. Resolved issues will be moved to the "Done" folder.
 
-## vercel has a Chinese path problem
+## Vercel has a Chinese path problem
 
-> 该问题似乎只出现于Google Chrome，使用Microsoft Edge时无法复现问题。
+<https://github.com/vuejs/vitepress/issues/4408>
+
+> 该问题似乎只出现于Google Chrome，使用Microsoft Edge时无法复现问题。Google Chrome的版本号为131.0.6778.109。
 >
-> The issue appears to be specific to Google Chrome and does not appear to be repeated when using Microsoft Edge.
+> The issue appears to be specific to Google Chrome and does not appear to be repeated when using Microsoft Edge. The version number of Google Chrome is 131.0.6778.109.
 
 使用`vercel.com`，当网页的路径中存在中文时，如：`/cnpath/中文.html`，网页会先报错`404`，刷新后报错`500`，显示`MIDDLEWARE_INVOCATION_FAILED`。
 
