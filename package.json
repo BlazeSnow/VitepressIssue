@@ -9,7 +9,7 @@
   },
   "author": "BlazeSnow",
   "license": "SEE LICENSE IN LICENSE",
-  "description": "blazesnow-vitepress-issue",
+  "description": "",
   "devDependencies": {
     "vitepress": "^1.5.0"
   }
