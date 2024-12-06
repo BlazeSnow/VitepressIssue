@@ -19,6 +19,11 @@ export default defineConfig({
                         text: 'another',
                         activeMatch: '/another/',
                         link: '/another/',
+                    },
+                    {
+                        text: 'cnpath',
+                        activeMatch: '/cnpath/',
+                        link: '/cnpath/',
                     }
                 ]
             },
@@ -40,7 +45,7 @@ export default defineConfig({
                     text: 'test',
                     items: [
                         { text: 'test1', link: '/test/' },
-                        { text: 'test2', link: '/test/test' }
+                        { text: 'test2', link: '/test/test' },
                     ]
                 }
             ],
@@ -49,7 +54,25 @@ export default defineConfig({
                     text: 'another',
                     items: [
                         { text: 'test3', link: '/another/' },
-                        { text: 'test4', link: '/another/test' }
+                        { text: 'test4', link: '/another/test' },
+                    ]
+                }
+            ],
+            '/Done/': [
+                {
+                    text: 'Done',
+                    items: [
+                        { text: '4163', link: '/Done/4163' },
+                    ]
+                }
+            ],
+            '/cnpath/': [
+                {
+                    text: 'cnpath',
+                    items: [
+                        { text: 'index', link: '/cnpath/' },
+                        { text: '1', link: '/cnpath/1' },
+                        { text: '中文', link: '/cnpath/中文' },
                     ]
                 }
             ]
