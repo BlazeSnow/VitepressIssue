@@ -25,9 +25,9 @@ All secondary headings on this page "##" are unresolved issues. The English of t
 
 Using `vercel.com`， when a Chinese character exists in the path of a webpage, such as `/cnpath/中文.html`， the webpage will first return an error of `404`， then refresh and return an error of `500` with the message `MIDDLEWARE_INVOCATION_FAILED`.
 
-![picture](/1.png)
+![picture](/4408-1.png)
 
-![picture](/2.png)
+![picture](/4408-2.png)
 
 ## navbar has problems with activematch
 
