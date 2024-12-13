@@ -20,11 +20,6 @@ export default defineConfig({
                         activeMatch: '/another/',
                         link: '/another/',
                     },
-                    {
-                        text: 'cnpath',
-                        activeMatch: '/cnpath/',
-                        link: '/cnpath/',
-                    }
                 ]
             },
             {
@@ -35,6 +30,11 @@ export default defineConfig({
                         text: '4163',
                         activeMatch: '/Done/4163',
                         link: '/Done/4163',
+                    },
+                    {
+                        text: '4408',
+                        activeMatch: '/Done/4408',
+                        link: '/Done/4408',
                     },
                 ]
             },
@@ -63,19 +63,10 @@ export default defineConfig({
                     text: 'Done',
                     items: [
                         { text: '4163', link: '/Done/4163' },
+                        { text: '4408', link: '/Done/4408' },
                     ]
                 }
             ],
-            '/cnpath/': [
-                {
-                    text: 'cnpath',
-                    items: [
-                        { text: 'index', link: '/cnpath/' },
-                        { text: '1', link: '/cnpath/1' },
-                        { text: '中文', link: '/cnpath/中文' },
-                    ]
-                }
-            ]
         },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/BlazeSnow/VitepressIssue' }
