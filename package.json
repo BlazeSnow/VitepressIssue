@@ -1,15 +1,10 @@
 {
   "name": "blazesnowvitepressissue",
-  "version": "1.0.0",
-  "main": ".vitepress/config.mts",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  "author": "BlazeSnow",
-  "license": "SEE LICENSE IN LICENSE",
-  "description": "",
   "devDependencies": {
     "vitepress": "^1.5.0"
   }
