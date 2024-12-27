@@ -1,8 +1,6 @@
 ---
-layout: doc
+layout: home
 ---
-
-# BlazeSnow - VitepressIssue
 
 ## Introduction
 
