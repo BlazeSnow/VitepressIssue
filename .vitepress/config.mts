@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+    lang: 'zh-CN',
     title: "BlazeSnow - VitepressIssue",
     description: "BlazeSnow - VitepressIssue",
     themeConfig: {
@@ -25,18 +26,7 @@ export default defineConfig({
             {
                 text: 'Done',
                 activeMatch: '/Done/',
-                items: [
-                    {
-                        text: '4163',
-                        activeMatch: '/Done/4163',
-                        link: '/Done/4163',
-                    },
-                    {
-                        text: '4408',
-                        activeMatch: '/Done/4408',
-                        link: '/Done/4408',
-                    },
-                ]
+                link: '/Done/',
             },
         ],
         sidebar: {
@@ -62,8 +52,10 @@ export default defineConfig({
                 {
                     text: 'Done',
                     items: [
-                        { text: '4163', link: '/Done/4163' },
+                        { text: 'index', link: '/Done/' },
                         { text: '4408', link: '/Done/4408' },
+                        { text: '4163', link: '/Done/4163' },
+                        { text: '3974', link: '/Done/3974' },
                     ]
                 }
             ],
