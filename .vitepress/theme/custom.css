@@ -1,11 +1,7 @@
 :root {
-    --vp-c-brand-1: red;
-    --vp-c-brand-2: red;
-    --vp-c-brand-3: red;
-    --vp-c-brand-soft: red;
-}
-
-html,
-body {
-    font-size: 18px;
+    --vp-c-brand-1: #0080FF;
+    --vp-c-brand-2: #0080FF;
+    --vp-c-brand-3: #0080FF;
+    --vp-c-brand-soft: #0080FF;
+    --vp-home-hero-name-color: #0080FF;
 }
