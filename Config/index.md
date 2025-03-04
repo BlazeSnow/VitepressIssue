@@ -12,6 +12,6 @@
 
 <<< @/.vitepress/theme/index.ts
 
-## /.vitepress/theme/custom.css
+## /.vitepress/theme/color.css
 
-<<< @/.vitepress/theme/custom.css
+<<< @/.vitepress/theme/color.css
