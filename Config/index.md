@@ -4,9 +4,9 @@
 
 <<< @/package.json
 
-## /.vitepress/config.mts
+## /.vitepress/config.ts
 
-<<< @/.vitepress/config.mts{ts}
+<<< @/.vitepress/config.ts
 
 ## /.vitepress/theme/index.ts
 
