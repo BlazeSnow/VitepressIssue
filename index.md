@@ -1,5 +1,6 @@
 ---
 layout: doc
+titleTemplate: "BlazeSnow Vitepress Issue"
 ---
 
 # BlazeSnow Vitepress Issue
