@@ -24,11 +24,6 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Config',
-        activeMatch: '/Config/',
-        link: '/Config/',
-      },
-      {
         text: 'Done',
         activeMatch: '/Done/',
         link: '/Done/',
