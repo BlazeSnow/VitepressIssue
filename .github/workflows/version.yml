@@ -21,6 +21,12 @@ jobs:
         lfs: true
         fetch-depth: 0
 
+    - name: ReleaseZip
+      uses: BlazeSnow/ReleaseZip/.github/workflows/ReleaseZip.yml@main
+      with:
+        artifact_name: ${{ github.repository }}-${{ inputs.tag }}
+        retention_days: 7
+
     - uses: ncipollo/release-action@v1
       with:
         tag: ${{ inputs.tag }}
