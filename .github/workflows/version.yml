@@ -6,26 +6,25 @@ on:
       tag:
         description: 'Release tag'
         required: true
-        default: 'v2026.3.31.0'
+        default: 'v2026.4.1.0'
 
 permissions:
   contents: write
 
 jobs:
-  zip:
-    uses: BlazeSnow/ReleaseZip/.github/workflows/ReleaseZip.yml@main
-    with:
-      artifact_name: ${{ github.event.repository.name }}-${{ inputs.tag }}
-      retention_days: 7
-
   publish:
     runs-on: ubuntu-latest
-    needs: zip
     steps:
     - name: Checkout code
       uses: actions/checkout@v6
       with:
         lfs: true
+
+    - name: Run ReleaseZip
+      uses: BlazeSnow/ReleaseZip@main
+      with:
+        artifact_name: ${{ github.event.repository.name }}-${{ inputs.tag }}
+        retention_days: 7
 
     - uses: ncipollo/release-action@v1
       with:
